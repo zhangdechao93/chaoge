@@ -5,13 +5,33 @@
         <meta name="keywords" content="html,css,javascript,html5,css3,es6,jquery" />
         <title>世纪豆博客</title>
         <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
             body{
-                background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1564039750889&di=6fc348227d59ca8b88bae543b77bf048&imgtype=0&src=http%3A%2F%2Fimg4.duitang.com%2Fuploads%2Fitem%2F201306%2F26%2F20130626142143_2TMk2.thumb.600_0.jpeg')
+                background-image: url('https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3610360939,249538740&fm=26&gp=0.jpg');
+                background-repeat: no-repeat;
+                display: flex;
+            }
+            .cont-cent{
+            flex:1;
+            height:200px;
+            background: white;
+            }
+            .cont-left{
+                width:200px;
+                height:200px;
+            }
+            .cont-righ{
+                width:200px;
+                height:200px;
             }
         </style>
     </head>
     <body>
-        <h1>下面就是我总结的一些知识点，从基础到高级</h1>
-        <p>I'm hosted with GitHub Pages.</p>
+        <div class="cont-left"></div>
+        <div class="cont-cent"></div>
+        <div class="cont-right"></div>
     </body>
 </html>
